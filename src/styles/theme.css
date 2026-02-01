@@ -1,0 +1,98 @@
+/* Base variables are now theme-dependent */
+
+/* DEFAULT THEME: CYBERPUNK (Dark, Neon) */
+:root,
+[data-theme="cyberpunk"] {
+    --color-bg: #050505;
+    --color-surface: #0e0e10;
+    --color-surface-hover: #18181b;
+    --color-surface-active: #27272a;
+
+    --color-border: #27272a;
+    --color-border-hover: #3f3f46;
+
+    --color-primary: #00f0ff;
+    --color-primary-dim: rgba(0, 240, 255, 0.1);
+    --color-primary-glow: rgba(0, 240, 255, 0.5);
+
+    --color-secondary: #7000ff;
+
+    --color-success: #00ff9d;
+    --color-warning: #ffaa00;
+    --color-error: #ff0055;
+
+    --color-text-main: #ededed;
+    --color-text-muted: #a1a1aa;
+    --color-text-dim: #52525b;
+
+    --radius-panel: 12px;
+    --shadow-elevation: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    --font-family-display: 'JetBrains Mono', monospace;
+}
+
+/* INDUSTRIAL THEME (Skeuomorphic, Grays, Tactile) */
+[data-theme="industrial"] {
+    --color-bg: #2a2a2a;
+    --color-surface: #383838;
+    --color-surface-hover: #404040;
+    --color-surface-active: #252525;
+    /* Indented look */
+
+    --color-border: #1a1a1a;
+    --color-border-hover: #555555;
+
+    --color-primary: #ff9900;
+    /* Safety Orange */
+    --color-primary-dim: rgba(255, 153, 0, 0.1);
+    --color-primary-glow: rgba(255, 153, 0, 0.2);
+
+    --color-secondary: #00bcd4;
+    /* Process Blue */
+
+    --color-success: #4caf50;
+    --color-warning: #ffc107;
+    --color-error: #f44336;
+
+    --color-text-main: #f0f0f0;
+    --color-text-muted: #b0b0b0;
+    --color-text-dim: #707070;
+
+    --radius-panel: 4px;
+    /* Boxier */
+    --shadow-elevation: 4px 4px 8px rgba(0, 0, 0, 0.4), inset 1px 1px 1px rgba(255, 255, 255, 0.05);
+
+    --font-family-display: 'DIN Alternate', 'Roboto Condensed', sans-serif;
+}
+
+/* MODERN THEME (Clean, Light/Dark Neutral) */
+[data-theme="modern"] {
+    --color-bg: #f3f4f6;
+    --color-surface: #ffffff;
+    --color-surface-hover: #f9fafb;
+    --color-surface-active: #e5e7eb;
+
+    --color-border: #e5e7eb;
+    --color-border-hover: #d1d5db;
+
+    --color-primary: #3b82f6;
+    /* Royal Blue */
+    --color-primary-dim: rgba(59, 130, 246, 0.1);
+    --color-primary-glow: rgba(59, 130, 246, 0.3);
+
+    --color-secondary: #8b5cf6;
+
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+
+    --color-text-main: #111827;
+    --color-text-muted: #6b7280;
+    --color-text-dim: #9ca3af;
+
+    --radius-panel: 16px;
+    /* Softer */
+    --shadow-elevation: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    --font-family-display: 'Inter', system-ui, sans-serif;
+}
