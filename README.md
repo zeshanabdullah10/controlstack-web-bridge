@@ -4,7 +4,7 @@
 
 ControlStack Web Bridge is a robust framework connecting LabVIEW applications with modern React web interfaces. It allows you to build beautiful, responsive, and interactive HMI dashboards using standard web technologies while maintaining the power and reliability of LabVIEW availability.
 
-![ControlStack Dashboard Preview](https://via.placeholder.com/800x400?text=ControlStack+Dashboard+Preview)
+![ControlStack Dashboard Preview](./images/Preview.png)
 
 ---
 
