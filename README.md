@@ -14,7 +14,7 @@ ControlStack Web Bridge is a robust framework connecting LabVIEW applications wi
 *   **Modern UI Components:** Includes a suite of industrial UI widgets (Gauges, Knobs, Charts, Tanks) built with Tailwind CSS and Framer Motion.
 *   **Tag-Based System:** Simple key-value pair architecture for easy data mapping.
 *   **Developer Friendly:** Type-safe React hooks (`useLabVIEW`) and comprehensive TypeScript support.
-*   **Zero-Dependency LabVIEW:** Uses the native WebView control (LabVIEW 2019+), no external WebSocket servers required.
+*   **Zero-Dependency LabVIEW:** Uses the native WebView control (LabVIEW 2026Q1+), no external WebSocket servers required.
 
 ---
 
